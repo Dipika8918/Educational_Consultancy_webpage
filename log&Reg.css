@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fullForm{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Fire&Water.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.mainForm{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 5% auto;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+    /* opacity: 0.5; */
+}
+
+.logBtn{
+    width:240px;
+    margin: 15% auto;
+    position: relative;
+    box-shadow:0 0 20px 5px #2a1200;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+#Btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 130px;
+    background: linear-gradient(90deg, rgb(0, 0, 61),rgb(209, 33, 33),rgb(255, 174, 24));
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.twoBtn{
+    padding: 15px 38px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 13px;
+    font-weight: strong;
+}
+
+.login{
+    position: absolute;
+    top: 180px;
+    width: 300px;
+    transition: 0.5s;
+    padding-left: 8px;
+}
+
+.enterLogin{
+    width: 100%;
+    padding: 12px 0;
+    margin: 7px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1.5px solid rgb(2, 0, 46);
+    outline: none;
+    background: transparent;
+}
+
+.register{
+    position: absolute;
+    top: 140px;
+    width: 300px;
+    transition: 0.5s;
+    padding-left: 8px;
+}
+
+.enterRegister{
+    width: 100%;
+    padding: 9px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1.5px solid rgb(2, 0, 46);
+    outline: none;
+    background: transparent;
+ }
+
+.submitBtn{
+    width: 60%;
+    /* align-items: center;
+    text-align: center; */
+    padding: 14px 35px;
+    /* padding-left: 20px; */
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 0, 61),rgb(209, 33, 33),rgb(255, 174, 24));    ;
+    border: 0;
+    outline: none;
+    border-radius: 80px;
+}
+
+.tickCheckbox{
+    margin: 30px 12px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 74px;
+    position: absolute;
+}
+
+#LoginId{
+    left: 25px;
+}
+
+#Register{
+    /* height: 60%; */
+    left: 440px;
+}

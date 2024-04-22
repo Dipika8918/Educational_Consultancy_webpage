@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>
+        Register Now @ TheSingh_C
+    </title>
+    <link rel="stylesheet" href="log&Reg.css">
+</head>
+<body>
+    <div class="fullForm">
+        <div class="mainForm">
+            <div class="logBtn">
+                <div id="Btn"></div>
+                <button type="button" class="twoBtn" onclick="login()">Login</button>
+                <button type="button" class="twoBtn" onclick="register()">Register</button>
+            </div>
+            <form id="LoginId" class="login">
+                <input type="text" class="enterLogin" placeholder="Username" required>
+                <input type="text" class="enterLogin" placeholder="Password" required>
+                <input type="checkbox"  class="tickCheckbox"><span>Remember Me</span>
+                <button type="submit" class="submitBtn">Login</button>
+            </form>
+            <form id="Register" class="register">
+                <input type="text" class="enterRegister" placeholder="Name" required>
+                <input type="email" class="enterRegister" placeholder="Mail-Id" required>
+                <input type="number" class="enterRegister" placeholder="Mobile No." required>
+                <input type="text" class="enterRegister" placeholder="Password" required>
+                <input type="text" class="enterRegister" placeholder="Retype Password" required>
+                <input type="checkbox"  class="tickCheckbox"><span>I accept terms and conditions</span>
+                <button type="submit" class="submitBtn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        var log=document.getElementById("LoginId");
+        var reg=document.getElementById("Register");
+        var btn=document.getElementById("Btn");
+
+        function register(){
+            log.style.left="-400px";
+            reg.style.left="60px";
+            btn.style.left="110px";
+        }
+
+        function login(){
+            log.style.left="50px";
+            reg.style.left="400px";
+            btn.style.left="0px";
+        }
+
+    </script>
+
+</body>
+</html>
